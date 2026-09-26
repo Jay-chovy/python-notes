@@ -1,8 +1,17 @@
-# 列表推导式
+# print 函数
 
-**一句话**：用一行表达式从可迭代对象生成新列表。
+**一句话**：print() 把内容输出到控制台。
 
 **代码**：
 ```python
-squares = [x**2 for x in range(5) if x % 2 == 0]
-print(squares)
+print("Hello, World!")
+
+输出：
+Hello, World!
+坑点：
+
+字符串必须用引号括起来。
+
+括号和引号要用英文半角。
+
+应用场景：调试代码、查看变量值。
